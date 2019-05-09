@@ -1,15 +1,11 @@
 import React from 'react';
 import './App.css';
-import ImageThumbnail from '../src/components/HeaderComponents/ImageThumbnail';
-import HeaderTitle from '../src/components/HeaderComponents/HeaderTitle';
-import HeaderContent from '../src/components/HeaderComponents/HeaderContent';
+import HeaderContainer from './components/HeaderComponents/HeaderContainer';
  
 const App = () => {
   return (
     <div>
-    <ImageThumbnail />
-    <HeaderTitle />
-    <HeaderContent />
+      <HeaderContainer />
     </div>
   )
 }
