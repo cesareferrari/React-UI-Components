@@ -5,11 +5,15 @@ import CardContent from './CardContent';
 
 const CardContainer = () => {
   return (
-    <div className="card-container">
+    <div className="card-container" onClick={handleClick}>
       <CardBanner />
       <CardContent />
     </div>
   )
+}
+
+const handleClick = function() {
+  window.location = 'https://www.reactjs.org';
 }
 
 export default CardContainer;
