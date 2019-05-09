@@ -1,1 +1,30 @@
 /* All styles for your header Components live here */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.school-name {
+  font-weight: bold;
+}
+
+.school-link {
+  display: inline-block;
+  margin-left: 20px;
+  color: gray;
+  font-size: 14px;
+}
+
+.school-title {
+  margin-bottom: 20px;
+}
+
+.header-body {
+  width: 87%;
+}
+
+.logo {
+  width: 10%;
+  align-self: flex-start;
+}
