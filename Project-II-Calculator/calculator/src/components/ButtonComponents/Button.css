@@ -3,8 +3,10 @@
   height: 100px;
   font-size: 40px;
   font-weight: bold;
-  padding: 20px;
   border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .action-button {
@@ -13,4 +15,11 @@
 
 .normal {
   font-weight: normal;
+}
+
+.symbol {
+  font-weight: normal;
+  font-size: 60px;
+  background-color: darkred;
+  color: white;
 }
