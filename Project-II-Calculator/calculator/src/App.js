@@ -25,10 +25,16 @@ const App = () => {
 
   return (
     <div>
-      <ActionButton buttonStyle="number-button action-button normal"  text="clear" />
-      {numberButtons}
-      {symbolButtons}
-      <ActionButton buttonStyle="number-button action-button"  text="0" />
+      <div className="buttons-container">
+        <div className="number-buttons-container">
+          <ActionButton buttonStyle="number-button action-button normal"  text="clear" />
+          {numberButtons}
+          <ActionButton buttonStyle="number-button action-button"  text="0" />
+        </div>
+        <div className="symbols-container">
+          {symbolButtons}
+        </div>
+      </div>
     </div>
   );
 };
