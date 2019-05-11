@@ -6,3 +6,11 @@
   padding: 20px;
   border: 1px solid gray;
 }
+
+.action-button {
+  width: 300px;
+}
+
+.normal {
+  font-weight: normal;
+}
