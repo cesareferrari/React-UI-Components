@@ -1,0 +1,42 @@
+.number-button {
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+  font-weight: bold;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-button:hover {
+  background-color: #F8F5F5;
+}
+
+.action-button {
+  width: 300px;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.symbol {
+  font-weight: normal;
+  font-size: 60px;
+  background-color: #8B0000;
+  color: white;
+}
+.symbol:hover {
+  background-color: #730101;
+}
+
+
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
